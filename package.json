@@ -1,0 +1,16 @@
+{
+  "name": "chatbot_with_chatgpt_api",
+  "version": "1.0.0",
+  "description": "A Chatbot that pulls from a chatGPT API trained on a specific subject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.26.0"
+  }
+}

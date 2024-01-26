@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
-const { Configuration, OpenAIApi } = require("openai")
+const OpenAIApi = require("openai")
 
-const openai = new OpenAIApi(new Configuration({
+
+const openai = new OpenAIApi({
     apiKey: 'apiKey'
-}))
+})
 
 app.use(express.static('public'))
 
